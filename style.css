@@ -1,0 +1,43 @@
+body{
+  background: #A9D8B8;
+}
+
+.container{
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #72705B;
+}
+.counter{
+  border: 5px solid #9AA0A8;
+  width: 600px;
+  height: 350px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  background: #BEFFC7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.counter h1{
+  font-size: 2rem;
+}
+#count{
+  font-size: 9rem;
+}
+
+.btn {
+  background: #A7C4B5;
+  border: none;
+  outline: none;
+}
+.btn:hover{
+  background: #9AA0A8;
+  border: none;
+  outline: none;
+}
